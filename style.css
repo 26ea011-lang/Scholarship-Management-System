@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f5fa;
+    color: #333;
+}
+
+header {
+    background-color: #173b67;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #dbeafe;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.hero h2 {
+    color: #173b67;
+    font-size: 32px;
+}
+
+.btn, button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section {
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+input, textarea {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    margin: 12px auto;
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 80px;
+}
+
+footer {
+    background-color: #173b67;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+@media(max-width:600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
